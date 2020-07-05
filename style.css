@@ -1,0 +1,33 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ccffff;
+    font-size: x-large;
+}
+header {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 4px 4px silver;
+    background-color: white;
+}
+
+.green{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.orange{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img {
+    height: 250px;
+    width: 500px;
+    margin: 30px;
+    border-radius: 15%;
+}
+h1 {
+    text-align: center;
+}
